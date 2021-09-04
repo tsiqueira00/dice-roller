@@ -1,0 +1,7 @@
+On this project I 'roll' a 6-side dice and then create a histogram in Python, using pygal, representing how many times each side is chosen.
+
+Steps
+1 - Created the Dice class which contains some attributes
+2 - Then created the rolling method which fills the random_sides list using the randint function from the random module
+3 - After that I created an instance from Dice, called the rolling function and then used a for loop in which I counted how many times each side appears in the random_sides list
+4 - Build the graph with pygal
